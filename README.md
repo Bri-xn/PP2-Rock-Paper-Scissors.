@@ -50,7 +50,17 @@ HTML code that passes through the official W3C validator with no issues just a f
 
 only bugs is in game area when the buttons are pressed they spread out then in again due to the rock image being sized different to the rest and unfortunately I couldn't figure it out.
 
- When the button is pressed in the game area, the image fails to load and 
+ The images in the game area appear as normal until a selection is made, they then disappear however the game continues to function as intended despite that.
 
 
 # Comments & Credits.
+
+i used stackoverflow for the player selection - https://stackoverflow.com/questions/73681747/rock-paperscissors-game-problem-in-javascript 
+
+i used chatGBT for errors for images and  and make sure i was using correct file paths and missing syntax.
+
+
+I do apologize for as i had to scrap my first version the night before deadline due to critial errors and corrupted files.
+
+Thank you for reading my Readme :)
+
