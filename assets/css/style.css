@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lumanosimo', cursive;
+}
+
+section {
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightsalmon;
+}
+
+.score {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
