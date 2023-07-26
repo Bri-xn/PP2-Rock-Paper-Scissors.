@@ -24,9 +24,7 @@ const game = () => {
 
         const computerOptions = ['rock', 'paper', 'scissors'];
 
-        const handleImageError = (imageElement) => {
-        imageElement.src = '/assets/images/rock.png'; 
-        };
+
 
         function showChoices(playerChoice, computerChoice) {
             playerHand.src = `/assets/images/${playerChoice}.png`;
