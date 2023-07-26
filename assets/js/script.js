@@ -33,3 +33,23 @@ const game = () => {}
             playerScore.textContent = pScore;
             computerScore.textContent = cScore;
         };
+
+        const compareHands = (playerChoice, computerChoice) => {
+            if (playerChoice === computerChoice) {
+                winner.textContent = 'Draw';
+            } else if (playerChoice === 'rock' && computerChoice === 'scissors') {
+                winner.textContent = 'You Win';
+                pScore++;
+            } else if (playerChoice === 'paper' && computerChoice === 'scissors') {
+                winner.textContent = 'Computer wins';
+                cScore++;
+            } else if (playerChoice === 'scissors' && computerChoice === 'rock') {
+                winner.textContent = 'Computer wins';
+                cScore++;
+            } else {
+                winner.textContent = 'You Win';
+                pScore++;
+            }
+
+            updateScore();
+        };
