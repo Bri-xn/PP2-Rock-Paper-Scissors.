@@ -71,3 +71,5 @@ const game = () => {
 };
 
 
+game();
+
