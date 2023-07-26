@@ -1,4 +1,4 @@
-const game = () => {}
+const game = () => {
     let pScore = 0;
     let cScore = 0;
 
@@ -53,3 +53,21 @@ const game = () => {}
 
             updateScore();
         };
+
+        options.forEach(option => {
+            option.addEventListener('click', function () {
+                const computerNumber = Math.floor(Math.random() * 3);
+                const computerChoice = computerOptions[computerNumber];
+
+                compareHands(this.textContent.toLowerCase(), computerChoice);
+
+                showChoices(this.textContent.toLowerCase(), computerChoice);
+            });
+        });
+    };
+
+    startGame();
+    playMatch();
+};
+
+

@@ -40,7 +40,7 @@ section {
     font-weight: bold; 
 }
 
-.intro button,.options {
+.intro button,.match button {
     font-size: 25px;
     width: 140px;
     height: 55px;
