@@ -13,3 +13,23 @@ const game = () => {}
             match.classList.add('fadein');
         });
     };
+
+    const playMatch = () => {
+        const options = document.querySelectorAll('.options button');
+        const playerHand = document.querySelector(".player-hand");
+        const computerHand = document.querySelector(".computer-hand");
+        const playerScore = document.querySelector('.score-player p');
+        const computerScore = document.querySelector('.score-computer p');
+        const winner = document.querySelector('.winner');
+
+        const computerOptions = ['rock', 'paper', 'scissors'];
+
+        const showChoices = (playerChoice, computerChoice) => {
+            playerHand.src = `/assets/images/${playerChoice}.png`;
+            computerHand.src = `/assets/images/${computerChoice}.png`;
+        };
+
+        const updateScore = () => {
+            playerScore.textContent = pScore;
+            computerScore.textContent = cScore;
+        };
