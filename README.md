@@ -50,5 +50,7 @@ HTML code that passes through the official W3C validator with no issues just a f
 
 only bugs is in game area when the buttons are pressed they spread out then in again due to the rock image being sized different to the rest and unfortunately I couldn't figure it out.
 
+ When the button is pressed in the game area, the image fails to load and 
+
 
 # Comments & Credits.

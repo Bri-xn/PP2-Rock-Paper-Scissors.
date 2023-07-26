@@ -24,10 +24,14 @@ const game = () => {
 
         const computerOptions = ['rock', 'paper', 'scissors'];
 
-        const showChoices = (playerChoice, computerChoice) => {
+        const handleImageError = (imageElement) => {
+        imageElement.src = '/assets/images/rock.png'; 
+        };
+
+        function showChoices(playerChoice, computerChoice) {
             playerHand.src = `/assets/images/${playerChoice}.png`;
             computerHand.src = `/assets/images/${computerChoice}.png`;
-        };    
+        }    
 
         const updateScore = () => {
             playerScore.textContent = pScore;
