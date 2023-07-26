@@ -201,62 +201,6 @@ div.fadein {
     }
 }
 
-/* Media query for large screens (greater than 1024px) */
-@media screen and (min-width: 1025px) {
-    .intro h1 {
-        font-size: 80px;
-    }
 
-    .intro button,
-    .match button {
-        font-size: 28px;
-        width: 160px;
-        height: 60px;
-    }
 
-    .hands {
-        padding: 70px;
-    }
 
-    .player-hand,
-    .computer-hand {
-        height: 250px;
-    }
-
-    .options button {
-        width: 100px;
-        height: 100px;
-        font-size: 24px;
-        margin: 15px;
-    }
-}
-
-/* Media query for larger screens (greater than 1440px) */
-@media screen and (min-width: 1441px) {
-    .intro h1 {
-        font-size: 100px;
-    }
-
-    .intro button,
-    .match button {
-        font-size: 32px;
-        width: 180px;
-        height: 70px;
-    }
-
-    .hands {
-        padding: 100px;
-    }
-
-    .player-hand,
-    .computer-hand {
-        height: 300px;
-    }
-
-    .options button {
-        width: 110px;
-        height: 110px;
-        font-size: 26px;
-        margin: 20px;
-    }
-}

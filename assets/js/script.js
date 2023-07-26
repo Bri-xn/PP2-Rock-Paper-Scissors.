@@ -27,7 +27,7 @@ const game = () => {
         const showChoices = (playerChoice, computerChoice) => {
             playerHand.src = `/assets/images/${playerChoice}.png`;
             computerHand.src = `/assets/images/${computerChoice}.png`;
-        };
+        };    
 
         const updateScore = () => {
             playerScore.textContent = pScore;

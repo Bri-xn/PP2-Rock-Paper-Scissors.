@@ -48,11 +48,7 @@ HTML code that passes through the official W3C validator with no issues just a f
 
 # Bugs.
 
-only bugs is in game area when pressed they spread out then in again due to the rock image being sized different to the rest and unfortunately I couldn't figure it out.
+only bugs is in game area when the buttons are pressed they spread out then in again due to the rock image being sized different to the rest and unfortunately I couldn't figure it out.
 
 
 # Comments & Credits.
-
-due to critical errors and folders corrupted i had to scrap the project and start from scratch last night.
-
-I used chatgbt to figure out the correct solution for the transition between the title screen and the game screen.
