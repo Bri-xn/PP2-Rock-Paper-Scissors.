@@ -110,3 +110,33 @@ section {
 .computer-hand {
     transform: rotateY(180deg);
 }
+
+.match h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.match .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.options button {
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+div.fadeout {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadein {
+    opacity: 1;
+    pointer-events: all;
+}
