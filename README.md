@@ -10,13 +10,15 @@ Here is the introduction page to the rock paper scissors game with a easy layout
 
 just a simple click on the button transitions into the game. 
 
-![Screenshot 2023-07-26 002839](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/7d56e495-491e-43b1-9bb4-f134fa117462)
+![Screenshot 2023-07-26 002839](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/f463c6b2-de30-42a0-aa5e-df9149663a07)
+
 
 
 # Game Area.
  The game area of Rock Paper Scissors refers to the virtual space or environment where the game is played. In this classic hand game, two players make simultaneous hand gestures representing either rock, paper, or scissors. The game area can be visualized as follows:
 
- ![Screenshot 2023-07-26 014439](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/c9740524-ce0b-441b-a1fd-c866f43e560d)
+![Screenshot 2023-07-26 014439](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/9229eae9-3147-426d-a7f6-e469a9bc281c)
+
 
 In the above representation, each player is presented with buttons to input their choice. The game proceeds as follows:
 
@@ -34,15 +36,14 @@ If both players make the same choice, the game results in a tie or draw.
 
 HTML code that passes through the official W3C validator with no issues just a few warnings
 
-![Screenshot 2023-07-26 032613](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/c49c4e5d-b2b4-4ffc-b32f-6bbe5666256e)
+![Screenshot 2023-07-26 032613](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/892669dc-08d8-49c6-9a5c-0be28d40e6dd)
 
  CSS code that passes through the official (Jigsaw) validator with no issue.
-
- ![Screenshot 2023-07-26 032806](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/ae82afbe-f6f5-4fe6-826f-a5134cbc8863)
+![Screenshot 2023-07-26 032806](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/b11684b7-b4e7-4b3e-ab36-ca54b39ce0e4)
 
  JavaScript code that passes through Jshint with no significant issues.
  
- ![jshint-dark](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/ccd73d0c-ffb7-4352-8692-7db04812d423)
+![jshint-dark](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/7ca1a5f0-8c9e-4b87-a746-2fe570bc6d10)
 
 
 # Bugs.
