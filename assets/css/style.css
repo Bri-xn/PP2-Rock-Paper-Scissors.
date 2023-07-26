@@ -139,3 +139,94 @@ div.fadein {
     opacity: 1;
     pointer-events: all;
 }
+
+
+/* Media query for small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    .intro button,
+    .match button {
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .hands {
+        padding: 20px;
+    }
+
+    .player-hand,
+    .computer-hand {
+        height: 120px;
+    }
+
+    .options button {
+        width: 60px;
+        height: 60px;
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+/* Media query for medium screens (768px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .intro h1 {
+        font-size: 50px;
+    }
+
+    .intro button,
+    .match button {
+        font-size: 22px;
+        width: 120px;
+        height: 45px;
+    }
+
+    .hands {
+        padding: 30px;
+    }
+
+    .player-hand,
+    .computer-hand {
+        height: 150px;
+    }
+
+    .options button {
+        width: 70px;
+        height: 70px;
+        font-size: 18px;
+        margin: 7px;
+    }
+}
+
+/* Media query for large screens (greater than 1024px) */
+@media screen and (min-width: 1025px) {
+    .intro h1 {
+        font-size: 80px;
+    }
+
+    .intro button,
+    .match button {
+        font-size: 28px;
+        width: 160px;
+        height: 60px;
+    }
+
+    .hands {
+        padding: 70px;
+    }
+
+    .player-hand,
+    .computer-hand {
+        height: 250px;
+    }
+
+    .options button {
+        width: 100px;
+        height: 100px;
+        font-size: 24px;
+        margin: 15px;
+    }
+}

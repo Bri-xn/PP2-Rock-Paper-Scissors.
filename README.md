@@ -1,39 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Paper Scissors Game
 
-Welcome,
+## Overview.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is a simple Rock Paper Scissors game built using HTML, CSS, and JavaScript. The game allows a player to compete against the computer in the classic Rock Paper Scissors hand game. The player and computer's scores are displayed on the screen, and the winner of each round is determined based on the choices made.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+# Introduction
 
-## Codeanywhere Reminders
+Here is the introduction page to the rock paper scissors game with a easy layout of the **title** in the middle of the page and a **Lets Play!** button. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+just a simple click on the button transitions into the game. 
 
-`python3 -m http.server`
+![Screenshot 2023-07-26 002839](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/7d56e495-491e-43b1-9bb4-f134fa117462)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+# Game Area.
+ The game area of Rock Paper Scissors refers to the virtual space or environment where the game is played. In this classic hand game, two players make simultaneous hand gestures representing either rock, paper, or scissors. The game area can be visualized as follows:
 
-`http_server`
+ ![Screenshot 2023-07-26 014439](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/c9740524-ce0b-441b-a1fd-c866f43e560d)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+In the above representation, each player is presented with buttons to input their choice. The game proceeds as follows:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Both players choose one of the three options: "rock," "paper," or "scissors" by pressing their button of choice.
+Once both players have made their selection, the choices are revealed simultaneously.
+The outcome of the game is determined by the following rules:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Rock beats scissors (Rock crushes scissors)
+Scissors beats paper (Scissors cut paper)
+Paper beats rock (Paper covers rock)
+If both players make the same choice, the game results in a tie or draw.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Testing 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+HTML code that passes through the official W3C validator with no issues just a few warnings
 
----
+![Screenshot 2023-07-26 032613](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/c49c4e5d-b2b4-4ffc-b32f-6bbe5666256e)
 
-Happy coding!
+ CSS code that passes through the official (Jigsaw) validator with no issue.
+
+ ![Screenshot 2023-07-26 032806](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/ae82afbe-f6f5-4fe6-826f-a5134cbc8863)
+
+ JavaScript code that passes through Jshint with no significant issues.
+ 
+ ![jshint-dark](https://github.com/Bri-xn/PP2-Rock-Paper-Scissorss/assets/131008714/ccd73d0c-ffb7-4352-8692-7db04812d423)
+
+
+# Bugs.
+
+only bugs is in game area when pressed they spread out then in again due to the rock image being sized different to the rest and unfortunately I couldn't figure it out.
+
+
+# Comments & Credits.
+
+due to critical errors and folders corrupted i had to scrap the project and start from scratch last night.
+
+I used chatgbt to figure out the correct solution for the transition between the title screen and the game screen.
